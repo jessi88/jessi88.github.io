@@ -1,30 +1,133 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=https://your-portfolio.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Redirecting to Portfolio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jessica Bosch | Data Visualization Designer</title>
+    <meta
+      name="description"
+      content="Jessica Bosch — Data visualization designer blending analysis, code, and editorial clarity."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a href="#home" class="brand" aria-label="Jessica Bosch home">
+          <span class="brand-mark"></span>
+          <span>Jessica Bosch</span>
+        </a>
 
-  <!-- SEO / sharing fallback -->
-  <link rel="canonical" href="https://jessi88.github.io/homepage/" />
-</head>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="portfolio.html">Portfolio</a>
+          <a href="about.html">About</a>
+          <a href="#connect">Connect</a>
+        </nav>
+      </header>
 
-<body style="font-family: system-ui, sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; background: #0f172a; color: white;">
+      <main id="home" class="hero">
+        <section class="hero-copy">
+          <p class="eyebrow">Data visualization · analytics · storytelling</p>
 
-  <div style="text-align: center;">
-    <h1 style="margin-bottom: 0.5rem;">Redirecting…</h1>
-    <p style="opacity: 0.7;">
-      Taking you to my portfolio.<br>
-      If nothing happens,
-      <a href="https://jessi88.github.io/homepage/" style="color: #38bdf8;">click here</a>.
-    </p>
-  </div>
+          <h1 class="hero-title">
+            Designing
+            <span>clarity</span>
+            from data.
+          </h1>
 
-  <!-- JS fallback -->
-  <script>
-    window.location.href = "https://jessi88.github.io/homepage/";
-  </script>
+          <div class="hero-intro">
+            <p class="hero-lead">
+              Specializing in the intersection of mathematical rigor and
+              purpose-driven data storytelling. I transform complex datasets
+              into clear, actionable insights for mission-oriented
+              organizations.
+            </p>
 
-</body>
+            <p class="hero-meta">
+              PhD in Mathematics · Data Analyst · Focused on high-impact,
+              insight-driven work
+            </p>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="portfolio.html">View projects</a>
+            <a
+              class="button button-secondary"
+              href="https://github.com/jessi88"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+        </section>
+
+        <aside class="hero-panel" aria-label="Selected profile highlights">
+          <div class="panel-grid"></div>
+
+          <div class="panel-card panel-card-large">
+            <p class="panel-label">What I do</p>
+            <p class="panel-value">
+              Transform data into clarity, direction, and action
+            </p>
+            <p class="panel-note">
+              I help organizations make better decisions through thoughtful
+              analysis, strong visual structure, and purposeful storytelling.
+            </p>
+          </div>
+
+          <div class="panel-row">
+            <div class="panel-card">
+              <p class="panel-label">Focus</p>
+              <p class="panel-stat">Insight</p>
+              <p class="panel-note">
+                Data visualization, dashboards, and narrative analysis
+              </p>
+            </div>
+
+            <div class="panel-card">
+              <p class="panel-label">Foundation</p>
+              <p class="panel-stat">PhD</p>
+              <p class="panel-note">
+                Mathematics, analytical depth, and structured thinking
+              </p>
+            </div>
+          </div>
+
+          <div class="panel-card panel-card-quote">
+            <p class="panel-label">Approach</p>
+            <p class="quote">
+              From complexity to clarity — with rigor, restraint, and purpose.
+            </p>
+          </div>
+        </aside>
+      </main>
+
+      <footer class="site-footer">
+        <p>
+          Open to data visualization and analytics work with mission-oriented
+          organizations.
+        </p>
+
+        <div class="footer-links">
+          <a href="mailto:jessica.bosch88@gmail.com"
+            >jessica.bosch88@gmail.com</a
+          >
+          <a
+            href="https://www.linkedin.com/in/jbosch88/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
