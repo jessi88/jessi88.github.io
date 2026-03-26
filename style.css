@@ -1231,6 +1231,23 @@ button {
   .project-preview iframe {
     min-height: 300px;
   }
+
+    .project-preview-tableau {
+    min-height: 520px;
+  }
+
+  .project-preview-tableau iframe {
+    min-height: 520px;
+  }
+
+  .project-preview-browser {
+    min-height: 440px;
+  }
+
+  .project-preview-browser iframe {
+    min-height: 440px;
+  }
+  
 }
 
 .project-slide-tableau {
