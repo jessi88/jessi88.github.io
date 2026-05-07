@@ -1263,6 +1263,7 @@ button {
 @media (min-width: 1800px) {
   .projects-rail {
     grid-auto-columns: 100%;
+    align-items: start;
   }
 
   .project-slide,
@@ -1271,17 +1272,31 @@ button {
     max-width: none;
     margin: 0;
     grid-template-columns: 1fr !important;
-    gap: 12px !important;
+    grid-template-rows: auto auto;
+    gap: 18px !important;
     min-height: auto !important;
+    align-content: start;
   }
 
   .project-slide-copy {
-    max-width: 720px;
+    width: 100%;
+    max-width: none;
+    height: auto;
     margin-bottom: 0;
+    overflow: visible;
+  }
+
+  .project-slide-copy h3 {
+    max-width: none;
+  }
+
+  .project-summary {
+    max-width: none;
   }
 
   .project-preview,
   .project-system-panel {
+    align-self: start;
     min-height: auto !important;
     height: auto !important;
   }
@@ -1296,32 +1311,6 @@ button {
   .project-preview-browser,
   .project-preview-browser iframe {
     min-height: clamp(680px, 70vh, 900px) !important;
-  }
-
-  .projects-rail {
-    align-items: start;
-  }
-
-  .project-slide,
-  .project-slide-system {
-    width: 100%;
-    grid-template-columns: 1fr !important;
-    grid-template-rows: 340px auto;
-    gap: 12px !important;
-    min-height: auto !important;
-    align-content: start;
-  }
-
-  .project-slide-copy {
-    height: 340px;
-    max-width: 720px;
-    margin-bottom: 0;
-    overflow: hidden;
-  }
-
-  .project-preview,
-  .project-system-panel {
-    align-self: start;
   }
 }
 
