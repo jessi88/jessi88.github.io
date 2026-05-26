@@ -1329,6 +1329,23 @@ button {
   --project-soft: var(--system-soft);
 }
 
+.project-platform {
+  color: var(--project-accent, var(--muted));
+}
+
+.project-tags span {
+  background: color-mix(
+    in srgb,
+    var(--project-soft, rgba(255, 255, 255, 0.5)) 72%,
+    white
+  );
+  color: var(--text-strong);
+}
+
+.project-tags span:first-child {
+  color: var(--project-accent, var(--muted));
+}
+
 .about-story {
   --about-accent: var(--tableau-accent);
   --about-soft: var(--tableau-soft);
